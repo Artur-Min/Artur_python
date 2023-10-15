@@ -1,8 +1,7 @@
-
 a = int(input("вклад в разиере:"))
 n = int(input("проценты:"))
-year = int(input("годы:"))
-for i in range(year+1):
+years = int(input("годы:"))
+for i in range(years):
     n = n / 100
     a = a + (a * n)
 print(a)
